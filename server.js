@@ -10,8 +10,6 @@ const http = require('http').Server(app)
 const img = './FuckingMonday.jpg'
 const ig = new IgApiClient()
 
-app.use(express.static('public'))
-
 async function login() {
   ig.state.generateDevice('fuckingmondaybot')
   await ig.account.login('fuckingmondaybot', 'stancium1151')
