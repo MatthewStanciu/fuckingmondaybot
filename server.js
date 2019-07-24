@@ -8,10 +8,9 @@ import { readFile } from 'fs'
 const app = express()
 const http = require('http').Server(app)
 const img = './FuckingMonday.jpg'
+const ig = new IgApiClient()
 
 app.use(express.static('public'))
-
-const ig = new IgApiClient()
 
 async function login() {
   ig.state.generateDevice('fuckingmondaybot')
