@@ -12,7 +12,7 @@ const ig = new IgApiClient()
 
 async function login() {
   ig.state.generateDevice('fuckingmondaybot')
-  await ig.account.login('fuckingmondaybot', 'stancium1151')
+  await ig.account.login('fuckingmondaybot', 'fuck me i have to change the fucking account password because i committed the fucking password goddamn it im so dumb')
 }
 
 const fuckingMonday = schedule.scheduleJob({ dayOfWeek: 1, hour: 7, minute: 30 }, () => {
