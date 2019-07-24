@@ -18,7 +18,7 @@ async function login() {
   await ig.account.login('fuckingmondaybot', 'stancium1151')
 }
 
-const fuckingMonday = schedule.scheduleJob({ dayofWeek: 1, hour: 7, minute: 30 }, () => {
+const fuckingMonday = schedule.scheduleJob({ dayOfWeek: 1, hour: 7, minute: 30 }, () => {
   (async () => {
     await login()
 
