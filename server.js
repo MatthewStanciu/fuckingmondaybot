@@ -17,6 +17,7 @@ async function login() {
 
 const fuckingMonday = schedule.scheduleJob({ dayOfWeek: 1, hour: 7, minute: 30 }, () => {
   (async () => {
+    console.log("it's fucking monday! posting new image...")
     await login()
 
     const publishResult = await ig.publish.photo({
