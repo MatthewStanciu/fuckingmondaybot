@@ -4,11 +4,13 @@
   "description": "A bot that posts the same image from Russian Doll to Instagram every Monday",
   "main": "start.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node start.js"
   },
   "author": "MatthewStanciu",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "bluebird": "^3.5.5",
     "express": "^4.17.1",
     "instagram-private-api": "^1.20.0",
