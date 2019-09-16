@@ -1,3 +1,7 @@
 {
-  "name": "fuckingmondaybot"
+  "name": "fuckingmondaybot",
+  "version": 1,
+  "env": {
+    "PASSWORD": "@fuckingmonday-password"
+  }
 }
